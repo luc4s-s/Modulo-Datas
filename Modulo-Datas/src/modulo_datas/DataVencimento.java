@@ -22,7 +22,7 @@ public class DataVencimento {
 		}
 		
 		//after : se data 1 é maior que data 2
-		//before : se data1 é menor que data 2
+		//before : se data 1 é menor que data 2
 		
 		if (dataVencimentoBoleto.before(dateAtualHoje)) {//se a data 1 é menor que a data 2
 			System.out.println("Boleto vencido - PAGAR URGENTE");
